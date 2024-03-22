@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #65903d;
+}
+.bg {
+    overflow: hidden;
+}
+.bg-img {
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.navigation {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+.app-name {
+    font-size: 300%;
+    margin: 3vh 0 0 18vw;
+    font-style: italic;
+    text-shadow: 6px 6px 3px rgb(18, 61, 35);
+}
+.search-bar {
+margin: 5vh 0 0 10vw;
+}
+#search {
+    width: 20vw;
+    height: 3vh;
+}
+#search-btn {
+    width: 4vw;
+    height: 3vh;
+
+}
+.logo img {
+    width: 10vw;
+    height: 18vh;
+    margin: 2vh 0 0 18vw;
+    box-shadow: 3px 3px 10px 5px;
+}
+.main {
+    opacity: .85;
+}
+.list {
+    display: flex;
+    background-color: #64af10;
+    width: 80vw;
+    height: 8vh;
+    margin: 6vh 0 0 9vw;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px 10px;
+}
+.star {
+    width: 10vw;
+    font-size: 400%;
+    padding: .5vh 0 0 2vw;
+}
+.fruit-name-div {
+    width: 70vw;
+}
+
+.fruit-name {
+    font-size: 180%;
+    margin: 1.5vh 0 0 26vw;
+}
+.inventory-btn {
+    font-size: 130%;
+    height: 8vh;
+    border-radius: 0 20px 20px 0;
+    background-color: #035b01;
+}
+.inventory-btn:hover {
+    background-color: #32d835;
+}
+
+.see-inventory {
+    width: 68.5vw;
+    height: 15vh;
+    background: #1aa427;
+    margin: 0 0 0 15vw;
+    border: 1px solid black;
+    border-radius: 0 0px 20px 20px;
+    box-shadow: 10px 10px 10px 10px;
+}
+.see-inventory-display {
+    display: flex;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.sell-btn {
+    height: 15vh;
+    width: 5vw;
+    border-radius: 0px 0px 0px 20px;
+    background-color: #035b01;
+}
+.sell-btn:hover {
+    background-color: #32d835;
+}
+.sell-div {
+    background-color: rgb(0, 255, 195);
+}
+.sell-div input {
+    width: 70px;
+    margin: 10px 0 0 20px;
+}
+
+.sell-div button {
+    margin: 20px 0 10px 40px;
+}
+.quantity {
+    width: 58.5vw;
+    display: flex;
+    justify-content: center;
+}
+.quantity table tr th {
+    height: 1.5vh;
+    border: 1px solid black;
+}
+.quantity table tr td {
+    transform: translateX(25px);
+}
+
+.restock-btn{
+    height: 15vh;
+    width: 5vw;
+    border-radius: 0px 0px 20px 0px;
+    background-color: #035b01;
+}
+.restock-btn:hover {
+    background-color: #32d835;
+}
+.restock-div {
+    background-color: rgb(0, 255, 195);
+}
+.restock-div input {
+    width: 70px; 
+    margin: 10px 0 0 20px;
+}
+.restock-div button {
+    margin: 20px 0 10px 40px;
+}
+
+
+
+
+
+.add-list-div button{
+    margin: 3vh 0 3vh 48vw;
+    background-color: #035b01;
+}
+.add-list-div button img {
+    width: 4vw;
+}
+.add-list-div img:hover {
+    background-color: #32d835;
+}
+.add-list-div .add-list {
+    margin: 3vh 0% 0% 35vw;
+    width: 30vw;
+    height: 30vh;
+    background-color: #1fbc58;
+    border-radius: 40px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 10px 10px #274532;
+}
+.add-list-text {
+    font-size: 200%;
+    margin: 1vh 0 0 9vw;
+    font-style: italic;
+    text-shadow: 6px 6px 3px rgb(18, 61, 35);
+}
+.add-list form div input {
+    background-color:#03fa5a;
+    margin: 4vh 0 0 6vw;
+    width: 18vw;
+    height: 4vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px 10px #274532;
+}
+
+#add {
+    margin: 2.5vh 0 0 8vw;
+}
+#reset {
+    margin: 2.5vh 0 0 9vw;
+}
